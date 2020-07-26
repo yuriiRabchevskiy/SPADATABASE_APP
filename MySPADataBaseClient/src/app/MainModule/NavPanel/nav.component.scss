@@ -1,0 +1,37 @@
+:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 12px;
+  height: 100vh;
+  width: 56px;
+  background: var(--primary-default);
+  color: var(--text-default);
+  position: relative;
+  transition: width 0.2s linear;
+  overflow-x: hidden;
+  box-shadow: var(--box-shadow-dark);
+  &.active {
+    width: 200px;
+  }
+  .link {
+    margin-bottom: 12px;
+  }
+  .settings-link {
+    margin-top: auto;
+    margin-bottom: 0;
+  }
+}
+
+.toggle {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}

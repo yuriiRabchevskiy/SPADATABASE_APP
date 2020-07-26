@@ -1,0 +1,4 @@
+<nav [ngClass]="open ? 'active' : ''">
+  <app-icon class="toggle" [icon]="open ? 'arrow-left' : 'arrow-right'" (click)="toggleNav()"></app-icon>
+  <app-nav-item class="link" [ngClass]="page.url + '-link'" *ngFor="let page of pages" [page]="page" [selected]="selectedPage && selectedPage.url === page.url" (iClick)="selectPage(page)"></app-nav-item>
+</nav>
