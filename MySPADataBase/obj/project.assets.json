@@ -5791,11 +5791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\work\\MySPADataBase\\MySPADataBase\\MySPADataBase\\MySPADataBase.csproj",
+      "projectUniqueName": "E:\\work\\SPADATABASE_APP\\SPADATABASE_APP\\MySPADataBase\\MySPADataBase.csproj",
       "projectName": "MySPADataBase",
-      "projectPath": "E:\\work\\MySPADataBase\\MySPADataBase\\MySPADataBase\\MySPADataBase.csproj",
+      "projectPath": "E:\\work\\SPADATABASE_APP\\SPADATABASE_APP\\MySPADataBase\\MySPADataBase.csproj",
       "packagesPath": "C:\\Users\\yrabc\\.nuget\\packages\\",
-      "outputPath": "E:\\work\\MySPADataBase\\MySPADataBase\\MySPADataBase\\obj\\",
+      "outputPath": "E:\\work\\SPADATABASE_APP\\SPADATABASE_APP\\MySPADataBase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -10,6 +10,16 @@ export interface IPage {
   canView: boolean;
 }
 
+export interface IProduct {
+  id: number;
+  name: string;
+  category: string;
+  color: string;
+  code: number;
+  quantity: number;
+  price: number;
+}
+
 export const AppPages: IPage[] = [
   { titleKey: 'Home', icon: 'home', url: 'home', canView: true},
   { titleKey: 'Reports', icon: 'report', url: 'reports', canView: true},
